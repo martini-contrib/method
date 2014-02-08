@@ -6,14 +6,14 @@ GET/HEAD methods shouldn't be overriden, hence they can't be overriden.
 
 This is useful for REST APIs and services making use of many HTTP verbs, and when http clients don't support all of them.
 
-[API Reference](http://godoc.org/github.com/codegangsta/martini-contrib/method)
+[API Reference](http://godoc.org/github.com/martini-contrib/method)
 
 ## Usage
 
 ~~~ go
 import (
   "github.com/codegangsta/martini"
-  "github.com/codegangsta/martini-contrib/method"
+  "github.com/martini-contrib/method"
 )
 
 func main() {
