@@ -1,4 +1,4 @@
-# method
+# method [![wercker status](https://app.wercker.com/status/e396edd92b8f734e277064f2ffe76adc "wercker status")](https://app.wercker.com/project/bykey/e396edd92b8f734e277064f2ffe76adc)
 Martini middleware/handler for handling http method overrides.
 This checks for the X-HTTP-Method-Override header and uses it
 if the original request method is POST.
